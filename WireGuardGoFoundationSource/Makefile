@@ -43,7 +43,7 @@ GOARCH_arm64 := arm64
 GOARCH_x86_64 := amd64
 GOOS_macosx := darwin
 GOOS_iphoneos := ios
-# There's no GOOS_iphonesimulator value here. I don't know what it would be, but I also don't know if it's needed?
+GOOS_iphonesimulator := ios
 
 # -- CONVENIENCE
 
