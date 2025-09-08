@@ -90,7 +90,7 @@ public class WireGuardAdapter {
     }
 
     /// Returns a WireGuard version.
-    class var backendVersion: String {
+    public var backendVersion: String {
         guard let ver = wgVersion() else { return "unknown" }
         let str = String(cString: ver)
         free(UnsafeMutableRawPointer(mutating: ver))
