@@ -14,7 +14,7 @@ on:
         description: 'Update go dependencies with `go get -u ./...'
         required: false
         type: boolean
-        defualt: false
+        default: false
       go_update_patch_only:
         description: '(only used if `update_go_deps` is `true`) When updating, only update the patch version.'
         required: false
